@@ -1,0 +1,47 @@
+*{
+    font-family: Raleway;
+    margin:0;
+    padding:0;
+}
+/* header und nav */
+header{
+    height:76px;
+    display: flex;
+    justify-content: center;
+}
+nav{
+    display:flex;
+    align-items: center;
+    flex-flow:row wrap;
+    border-bottom: solid #333 ;
+    border-top: solid #333;
+}
+/* logo shapely demo */
+.logo{
+    text-decoration:none;
+    color:#666;
+}
+/* ul */
+ul{
+    color:#666;
+    display: flex;
+    flex-flow:row wrap;
+    width:400px;
+    justify-content: space-evenly;
+}
+/* listen elemente und a */
+li{
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    color:#333;
+    font-size: 7px;
+}
+/* hovers */
+.logo:hover{
+    color:#333;
+}
+li a:hover{
+    color:#337ab7;
+}
